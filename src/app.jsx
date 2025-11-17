@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Helmet } from 'react-helmet';
 import HomeScreen from '@/components/screens/HomeScreen';
 import SetupScreen1 from '@/components/screens/SetupScreen1';
@@ -262,7 +262,7 @@ function App() {
   return (
     <>
       <Helmet>
-        <title>Kameraden - Dutch Language Game</title>
+        <title>Kameraden</title>
         <meta name="description" content="Play Kameraden, an engaging Dutch language game where players guess answers to personal questions" />
       </Helmet>
       <div className="min-h-screen">
